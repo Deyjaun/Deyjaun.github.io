@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Ultra&display=swap');
 
 
 h1, h2 {
-    font-family: 'Great Vibes', cursive;
-    color: rgb(243, 0, 0);
+    font-family: 'ultra',cursive;
+    color: rgb(243, 89, 0);
 }
 
 body{
@@ -11,15 +11,15 @@ body{
     text-decoration: solid;
     font-style: oblique;
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(0, 153, 255);
+    background-color: rgb(123, 0, 255);
 }
 nav{
     background-color: rgb(0, 0, 0);
 }
 nav > a{
-    color: rgb(0, 174, 255);
+    color: rgb(0, 255, 179);
     text-decoration: none;
-    padding: 8px 12px;
+    padding: 25px;
     display: inline-block;
 }
 nav > a:hover {
