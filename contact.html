@@ -12,12 +12,29 @@
     <a href="contact.html">Contact information</a>
     <a href="project.html">Project</a>
     </nav>
-    <p><form action="/action_page.php">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value=""><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value=""><br><br>
+    <h1>You Can Contact Me Here</h1>
+    
+
+    <form
+ action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+ method="post"
+>
+        <label for="fname">FullName:</label><br>
+       <input name="fullName">
+        <br>
+        <label for="">email:</label><br>
+        <input name="email"><br>
+        <label for="">comments:</label><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        <br>
+        <input type="checkbox">
+        <label>I agree to the terms and conditions <br></label>
+        <br>
         <input type="submit" value="Submit">
+        <input type="reset">
       </form></p>
+      <h2>You can contact me at:
+      </h2>
+      <p>dlawrence@brooklynsteamcenter.org</p>
 </body>
 </html>
