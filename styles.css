@@ -9,46 +9,49 @@ h1, h2 {
 
 body{
     font-weight: bolder;
-    color: rgb(255, 7, 7);
+    color: rgb(255, 255, 255);
     text-decoration: solid;
     font-style: oblique;
     font-family: 'Courier New', Courier, monospace;
-    background-color: #000000;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg fill-opacity='0.63'%3E%3Ccircle fill='%23000000' cx='50' cy='0' r='50'/%3E%3Cg fill='%230d0000' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%231a0000' cx='50' cy='100' r='50'/%3E%3Cg fill='%23260000' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23330000' cx='50' cy='200' r='50'/%3E%3Cg fill='%23400000' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%234d0000' cx='50' cy='300' r='50'/%3E%3Cg fill='%23590000' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23660000' cx='50' cy='400' r='50'/%3E%3Cg fill='%23730000' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23800000' cx='50' cy='500' r='50'/%3E%3Cg fill='%238c0000' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23990000' cx='50' cy='600' r='50'/%3E%3Cg fill='%23a60000' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b30000' cx='50' cy='700' r='50'/%3E%3Cg fill='%23bf0000' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23cc0000' cx='50' cy='800' r='50'/%3E%3Cg fill='%23d90000' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e60000' cx='50' cy='900' r='50'/%3E%3Cg fill='%23f20000' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23FF0000' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
-background-attachment: fixed;
+    background-color: #FB00FF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%230300DD'/%3E%3Cstop offset='1' stop-color='%23FB00FF'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23AB00FF' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23AB00FF' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.5'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
 background-size: contain;
     text-align: center;
 }
 nav{
-    background-color: black;
+    background-color: rgb(136, 1, 255);
     position: sticky;
     top: 0;
+    border-radius: 80px;
 }
 nav > a{
-    color: rgb(255, 1, 1);
+    color: rgb(0, 252, 46);
     text-decoration: none;
     padding: 25px;
     display: inline-block;
+    font-weight: bolder;
 }
 nav > a:hover {
-    background-color: rgba(0, 255, 225, 0.772);
+    background-color: rgba(255, 225, 0, 0.772);
 }
 input, textarea {
-    background-color: rgb(0, 123, 255);
+    background-color: rgb(0, 149, 255);
     border-radius: 20px;
     padding: 14px;
     border: 80px rgb solid(0, 64, 255);
     border-width:0 0 4px 0;
-    border-color: rgb(255, 0, 0);
+    border-color: rgb(255, 106, 0);
 }
 input[type=submit] ,input[] {
         background-color: cyan;
 }
 input:hover, textarea:hover{
-    background-color: rgb(0, 255, 8);
+    background-color: rgb(255, 157, 0);
 }
 input[type=submit]:hover {
-    background-color: rgb(58, 249, 0);
+    background-color: rgb(255, 5, 5);
 }
 
 @media screen and (max-width: 500px) {
@@ -83,9 +86,9 @@ input[type=submit]:hover {
     font-weight: 250;
 }
 a {
-color: rgb(0, 229, 255);
+color: rgb(0, 251, 255);
 }
 
 a:hover {
-    color: rgb(240, 66, 66);
+    color: rgb(255, 2, 2);
 }
