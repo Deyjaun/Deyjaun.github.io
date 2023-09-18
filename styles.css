@@ -76,11 +76,19 @@ input[type=submit]:hover {
 
 }
 #youtube-link:hover {
-    color: rgb(138, 247, 245);
+    color: rgb(255, 0, 0);
+}
+#linkedin-link:hover {
+color: rgb(0, 251, 255);
+}
+#linkedin-link {
+font-weight: 300;
+font-size: 50px;
 }
 
 #youtube-link {
-    font-weight: 250;
+    font-weight: 300;
+    font-size: 50px;
 }
 #instagram-link {
     font-weight: 250;
